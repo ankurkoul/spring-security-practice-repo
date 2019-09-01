@@ -11,4 +11,16 @@ public class MySecurityController {
 	public String hello() {
 		return "home.jsp";
 	}
+	
+	@RequestMapping("/login")
+	public String login() {
+		return "login.jsp";
+	}
+	
+	
+	@RequestMapping("/logout-success")
+	public String logout() {
+		return "logout.jsp";
+	}
+	
 }

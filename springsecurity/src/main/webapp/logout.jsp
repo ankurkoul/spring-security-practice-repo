@@ -7,8 +7,6 @@
 <title>In Cybertooth Spring </title>
 </head>
 <body>
-  <h1>Hello World</h1>
-
-<a href="logout">logout</a>
+LOGOUT PAGE
 </body>
 </html>
