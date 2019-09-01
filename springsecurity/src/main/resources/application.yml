@@ -4,3 +4,14 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+security:
+  oauth2:
+    client:
+      clientId: <ClientID>
+      clientSecret: <SecretID>
+      accessTokenUri: https://github.com/login/oauth/access_token
+      userAuthorizationUri: https://github.com/login/oauth/authorize
+      clientAuthenticationScheme: form
+      
+    resource:
+      user-info-uri: https://api.github.com/user
